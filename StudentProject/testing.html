@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+	position: absolute;
+	top: 10px;
+	left: 570px;
+	text-align: center;
+	font-variant: small-caps;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+body{
+	font-family: verdana;
+}
+ul#mainmenu{
+	list-style-type: none;
+	font-size: 9px;
+}
+ul#mainmenu li{
+	width : 340px;
+	text-align: center;
+	/* position: relative;
+	float: left; */
+	
+}
+/* .vert{
+    position: absolute;
+    
+} */
+ul#mainmenu a{
+	text-decoration: none;
+	display: block;
+	width: 340px;
+	height: 35px;
+	line-height: 25px;
+	background-color:lightslategray;
+	color: white;
+	font-size: 21px;
+	}
+ul#mainmenu .submenu1 a{
+	margin-top: 3px;
+}
+ul#mainmenu .submenu2 a{
+	margin-left: 20px;
+}
+ul#mainmenu li:hover>a{
+	background-color: black;
+}
+ul#mainmenu li:hover a:hover{
+	background-color:#950740;
+}
+ul#mainmenu ul.submenu1{
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: 0px;
+    width:100%;
+}
+ul#mainmenu ul.submenu2{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 323px;
+}
+ul#mainmenu li:hover .submenu1{
+	display: block;
+}
+ul#mainmenu .submenu1 li:hover .submenu2{
+	display: block;
+}
+.darrow{
+	font-size: 12px;
+	position: absolute;
+	top: 10px;
+	right: 8px;	
+	color: white;
+}
+.rarrow{
+	font-size: 12px;
+	position: absolute;
+	top: 10px;
+	right: 8px;	
+	color: white;
+}
+.imgn{
+	position: absolute;
+	float:right;
+	right: 1px;
+	top: 65px;	
+}
+    </style>
+</head>
+<body>
+	<img src="img1.jpg" width="100px" height="100px">
+	<h1>Project-Z</h1>
+	<div>
+		<ul id="mainmenu">
+			<li><a href="#home">Home</a><span class="darrow">&#9660;</span>
+			</li>
+			<li><a href="#exam">Exam</a><span class="darrow">&#9660;</span>
+				<ul class="submenu1">
+					<li><a href="#">signup</a><span class="rarrow">&#9654;</span>
+					</li>
+					<li><a href="#">login</a><span class="rarrow">&#9654;</span>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#branch">Branch</a><span class="darrow">&#9660;</span>
+				<ul class="submenu1">
+					<li><a href="#">ECE</a><span class="rarrow">&#9654;</span>
+					</li>
+					<li><a href="#">CSE</a><span class="rarrow">&#9654;</span>
+						<ul class="submenu2">
+							<li><a href="#">Faculty</a></li>
+							<li><a href="#">Student</a></li>		
+						</ul>
+					</li>
+					<li><a href="#">MECH</a><span class="rarrow">&#9654;</span>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#contact">Contact</a><span class="darrow">&#9660;</span>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

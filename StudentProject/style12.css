@@ -1,0 +1,155 @@
+
+body{
+    
+  
+    
+    background-color: cadetblue;
+   /* background: url("backl.jpg");*/  
+  
+   background-color: white;
+    background-size: cover; 
+    
+    
+
+}
+table{
+    /* margin-right: 150px;
+    padding-left: 25px; */
+    
+    
+}
+table td{
+    padding:5px;
+    font-size:20px;
+    color:white;
+}
+input[type=text]
+{
+    margin:10px;
+    width: 400px;
+    height:40px;
+   
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style:hidden;
+    outline:none;
+
+
+   /* border-radius: 5px;*/
+  
+    text-align: center;
+    font-size:15px;
+
+}
+
+input[type=password]
+{
+    margin:10px;
+    width: 400px;
+    height:40px;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style:hidden;
+    outline:none;
+    /*border-radius: 5px;*/
+    text-align: center;
+    font-size:15px;
+
+
+   
+
+}
+#num{
+    margin:10px;
+    width: 400px;
+    height:40px;
+    border-bottom-style:hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    outline:none;
+   
+    
+    /*border-radius: 5px;*/
+    text-align: center;
+    font-size:15px;
+  
+}
+#ph{
+    margin:10px;
+    width: 400px;
+    height:40px;
+    border-bottom-style:hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    font-size:15px;
+    
+    outline:none;
+    
+ 
+    /*border-radius: 5px;*/
+    text-align: center;
+}
+.division1{
+    /* padding:20px;
+
+    
+    
+
+    
+    margin-left :250px;
+    margin-right: 270px;
+    margin-top: 20px; */
+    /*border-radius: 15px;*/
+    background-color:lightslategray;;
+    background-size: cover;
+    font-family: 'Kantumruy Pro', sans-serif;
+    
+
+
+
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    
+
+}
+#btn1{
+    margin:30px;
+    height:50px;
+    width:200px;
+    margin-right:100px;
+    color:white;
+    font-size: 20px;
+    background: url('backl.jpg');
+    border-radius: 10px;
+}
+#btn1:hover {
+    background-color: white;
+    color: black;
+  }
+
+p{
+    color:white;
+    font-size: 21px;
+}
+#res{
+    margin:30px;
+    height:50px;
+    width:200px;
+    margin-right:100px;
+    color:white;
+    font-size: 20px;
+    background: url('backl.jpg');
+    border-radius: 10px;
+}
+#res:hover{
+    color:black;
+}
+
+		

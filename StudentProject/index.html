@@ -1,0 +1,263 @@
+<html>
+    <head>
+        <title>
+              Forms
+        </title>
+        <link rel="stylesheet" href="style12.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@100;200;300&family=Kdam+Thmor+Pro&family=Nunito:wght@300&family=Poppins:wght@100&family=Quicksand&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@200;400&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+      
+    </head>
+    <body>
+       <script src="Home.js">
+
+       </script>
+        <div class="division1">
+            <h2>
+                REGISTRATION FORM
+            </h2>
+            <form action="wwww.google.com" method="post" onsubmit="return validation()">
+        <center>
+            
+            <table>
+                <tr>
+                    <td>
+                        ID NUMBER : 
+                    </td>
+                    <td>
+                        <input type="text" id="idnum1">
+
+                    </td>
+                    <td>
+                        <label id="Lb1"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        FIRST NAME : 
+                    </td>
+                    <td>
+                        <input type="text" id="first" oninput="full()">
+
+                    </td>
+                    <td>
+                        <label id="Lb1"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        MIDDLE NAME : 
+                    </td>
+                    <td>
+                        <input type="text" id="middle" oninput="full()">
+                    </td>
+                    <td>
+                        <label id="lb2"></label>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        LAST NAME : 
+                    </td>
+                    <td>
+                        <input type="text" id="last" oninput="full()">
+                    </td>
+                    <td>
+                        <label id="lb3"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        FULL NAME : 
+                        </td>
+                        <td>
+                            <input type="text" id="fulll" readonly></p>
+                        </td>
+                </tr>
+
+          
+                    <tr>
+                        <td>
+                            PASSWORD
+                        </td>
+                        <td>
+                            <input type="password" id="2" placeholder="Password">
+                        </td>
+                        <td>
+                            <img src="eye.png" id="img" height="40px" width="40px" onclick="img2() ">
+                        </td>
+                    </tr>   
+                <tr>
+                    <td>
+                        COUNTRY : 
+                    </td>
+                    <td>
+                        <select id="ph"><option>India +91</option><option>Korea +82</option></select>
+                    </td>
+                    <td>
+                        <label id="lb5"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        PHONE : 
+                    </td>
+                    <td>
+                        <input type="number" id="num" oninput="full()">
+                    </td>
+                    <td>
+                        <label id="lb6"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        GMAIL : 
+                    </td>
+                    <td>
+                        <input type="text" id="val" oninput="valid()">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="padding-top:20px;">
+                        GENDER : 
+                    </td>
+                    <td style="padding-left: 28px;">
+                        Male<input type="checkbox" id="1_1" oninput="gend()">Female<input type="checkbox" id="1_2" oninput="gend()">
+                        <label id="lb7" style="color: red;font-size:25px; font-style: bold;"></label>
+                    </td>
+                    <td>
+                        
+                    </td>
+
+                </tr>
+              
+                <tr>
+                    <td style="padding-top:33px;">
+                        HOBBIES : 
+                    </td>
+                   
+                    <td style="padding-left: 28px;padding-top:21px;">
+                        Coding<input type="checkbox" id="1_3">
+                        Singing<input type="checkbox" id="1_4">
+                        Reading books<input type="checkbox" id="1_5">
+                        Piano<input type="checkbox" id="1_6">
+                    </td>
+                    <td>
+                        <label id="lb7"></label>
+                    </td>
+                </tr>
+                <td>
+
+                </td>
+                <tr>
+                    <td style="padding-top:33px;">
+                        UPLOAD YOUR PICTURE : 
+                    </td>
+                   
+                    <td style="padding-left: 28px;padding-top:30px;">
+                        <input type="file" id="myFile" name="filename">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top:50px;">
+                        SET DOB : 
+                        </td>
+                        <td style="padding-left: 28px;padding-top:50px;">
+                            <input type="date" id="dob" style="padding:3px">
+
+                        </td>
+                       
+                </tr>
+               
+
+              
+
+            </table>
+            <p><input type="checkbox" id="userg" >I agree to all terms and conditions</p>
+            <table>
+                <tr>
+                    <td style="padding-right:10px;">
+                        <input type="reset" value="RESET" id="res">
+                    </td>
+                    <td>
+                        <input type="submit" value="SUBMIT" id="btn1">
+
+                    </td>
+
+                </tr>
+                
+            </table>
+           
+           
+            
+            
+        </center>
+    </form>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    FULL NAME : -
+                </td>
+                <td id="first1">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PHONE NUMBER : - 
+                </td>
+                <td id="first2">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    COUNTRY : - 
+                </td>
+                <td id="first3">
+            </td>
+            </tr>
+             <tr>
+                <td>
+                    GMAIL : - 
+                </td>
+                <td id="first4">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    GENDER : - 
+                </td>
+                <td id="first5">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    HOBBIES : - 
+                </td>
+                <td id="first6">
+
+                </td>
+
+            </tr>
+            <tr>
+              <td>
+                DATE OF BIRTH : - 
+              </td>
+              <td id="first7">
+
+              </td>
+            </tr>
+        </table>
+        
+    </div>
+
+    </body>
+</html>
